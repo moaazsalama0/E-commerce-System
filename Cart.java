@@ -55,4 +55,15 @@ public class Cart{
         }
         return totalPrice;
     }
+    public String printOrderInfo() {
+        StringBuilder summary = new StringBuilder();
+        summary.append("Order Summary:\n");
+        for (int i = 0; i < nProducts; i++) {
+            if (products[i] != null) {
+                summary.append(products[i].getName()).append(" - $").append(products[i].getPrice()).append("\n");
+            }
+        }
+        summary.append("Total Price: $").append(calculatePrice());
+        return summary.toString();
+    }
 }
