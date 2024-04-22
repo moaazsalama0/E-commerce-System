@@ -1,4 +1,7 @@
 # E-commerce-System
+
+### --This file can be run in both terminal (EcommerceSystem.java) or in a window (EcommercySystemGUI.java)--
+
 A very simple E-commerce Java app. This app uses object-oriented programming.
 
 App features:
@@ -14,4 +17,3 @@ App features:
 5-Object-oriented design
 
 
-Project done by: Moaaz Salama
